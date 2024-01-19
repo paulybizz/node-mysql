@@ -1,6 +1,7 @@
 // Imports
 import express from "express";
 import cors from "cors";
+import db from "./database.js";
 
 // ========== Setup ========== //
 
@@ -15,8 +16,15 @@ server.use(cors()); // Enable CORS for all routes
 // ========== Routes ========== //
 
 // Root route
-server.get("/", (req, res) => {
-    res.send("Node.js REST API with Express.js");
+server.get("/", async (req, res) => {
+    // Check database connection
+    const result = await db.ping();
+
+    if (result) {
+        res.send("Node.js REST API with Express.js - connected to database");
+    } else {
+        res.status(500).send("Error connecting to database");
+    }
 });
 
 // Start server on port 3000
