@@ -17,8 +17,8 @@ CREATE TABLE users (
 );
 
 -- insert
-INSERT INTO users (name, mail, title, image) VALUES ('Peter Lind', 'petl@kea.dk', 'Senior Lecturer', 'https://share.cederdorff.com/images/petl.jpg');
-INSERT INTO users (name, mail, title, image) VALUES ('Rasmus Cederdorff', 'race@dev.dk', 'Senior Lecturer', 'https://share.cederdorff.com/images/race.jpg');
+INSERT INTO users (name, mail, title, image) VALUES ('Peter Lind', 'petl@kea.dk', 'Senior Lecturer', 'https://share.cederdorff.dk/images/petl.jpg');
+INSERT INTO users (name, mail, title, image) VALUES ('Rasmus Cederdorff', 'race@dev.dk', 'Senior Lecturer', 'https://share.cederdorff.dk/images/race.jpg');
 INSERT INTO users (name, mail, title, image) VALUES ('Lars Bogetoft', 'larb@eaaa.dk', 'Head of Education', 'https://kea.dk/slir/w200-c1x1/images/user-profile/chefer/larb.jpg');
 INSERT INTO users (name, mail, title, image) VALUES ('Edith Terte', 'edan@kea.dk', 'Lecturer', 'https://media.licdn.com/dms/image/C4E03AQE6nx7oUPqo_g/profile-displayphoto-shrink_800_800/0/1643707886591?e=1697673600&v=beta&t=Qp4GcxVlJfsZi4t-if6YJ6O1u7bH2oLwWgVxB-X5Nt4');
 INSERT INTO users (name, mail, title, image) VALUES ('Frederikke Bender', 'fbe@kea.dk', 'Head of Education', 'https://kea.dk/slir/w200-c1x1/images/user-profile/chefer/fbe.jpg');
