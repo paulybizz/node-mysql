@@ -21,7 +21,7 @@ server.get("/", async (req, res) => {
     const result = await db.ping();
 
     if (result) {
-        res.send("Node.js REST API with Express.js - connected to database");
+        res.send("Node.js REST API with Express.js - connected to database ✨");
     } else {
         res.status(500).send("Error connecting to database");
     }
