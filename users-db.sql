@@ -18,10 +18,9 @@ CREATE TABLE users (
 
 -- insert
 INSERT INTO users (name, mail, title, image) VALUES ('Peter Lind', 'petl@kea.dk', 'Senior Lecturer', 'https://share.cederdorff.dk/images/petl.jpg');
-INSERT INTO users (name, mail, title, image) VALUES ('Rasmus Cederdorff', 'race@dev.dk', 'Senior Lecturer', 'https://share.cederdorff.dk/images/race.jpg');
-INSERT INTO users (name, mail, title, image) VALUES ('Lars Bogetoft', 'larb@eaaa.dk', 'Head of Education', 'https://kea.dk/slir/w200-c1x1/images/user-profile/chefer/larb.jpg');
-INSERT INTO users (name, mail, title, image) VALUES ('Edith Terte', 'edan@kea.dk', 'Lecturer', 'https://media.licdn.com/dms/image/C4E03AQE6nx7oUPqo_g/profile-displayphoto-shrink_800_800/0/1643707886591?e=1697673600&v=beta&t=Qp4GcxVlJfsZi4t-if6YJ6O1u7bH2oLwWgVxB-X5Nt4');
-INSERT INTO users (name, mail, title, image) VALUES ('Frederikke Bender', 'fbe@kea.dk', 'Head of Education', 'https://kea.dk/slir/w200-c1x1/images/user-profile/chefer/fbe.jpg');
-INSERT INTO users (name, mail, title, image) VALUES ('Murat Kilic', 'mki@eaaa.dk', 'Senior Lecturer', 'https://www.eaaa.dk/media/llyavasj/murat-kilic.jpg?width=800&height=450&rnd=133401946552600000');
-INSERT INTO users (name, mail, title, image) VALUES ('Anne Kirketerp', 'anki@eaaa.dk', 'Head of Education', 'https://www.eaaa.dk/media/5buh1xeo/anne-kirketerp.jpg?width=800&height=450&rnd=133403878321500000');
-INSERT INTO users (name, mail, title, image) VALUES ('Dan Okkels Brendstrup', 'dob@eaaa.dk','Lecturer', 'https://www.eaaa.dk/media/bdojel41/dan-okkels-brendstrup.jpg?width=850&height=450&v=1da0d9b0310b710');
+INSERT INTO users (name, mail, title, image) VALUES ('Rasmus Cederdorff', 'race@eaaa.dk', 'Senior Lecturer', 'https://cederdorff.com/img/race.webp');
+INSERT INTO users (name, mail, title, image) VALUES ('Anne Kirketerp', 'anki@eaaa.dk', 'Head of Education', 'https://www.eaaa.dk/media/5buh1xeo/anne-kirketerp.jpg?width=850&height=450');
+INSERT INTO users (name, mail, title, image) VALUES ('Dan Okkels Brendstrup', 'dob@eaaa.dk','Lecturer', 'https://www.eaaa.dk/media/bdojel41/dan-okkels-brendstrup.jpg?width=850&height=450');
+INSERT INTO users (name, mail, title, image) VALUES ('Kasper Fischer Topp', 'kato@eaaa.dk','Lecturer', 'https://www.eaaa.dk/media/lxzcybme/kasper-topp.jpg?width=850&height=450');
+INSERT INTO users (name, mail, title, image) VALUES ('Morten Algy Bonderup', 'moab@eaaa.dk','Senior Lecturer', 'https://www.eaaa.dk/media/hi4lv5hw/morten-algy-bonderup.jpg?width=850&height=450');
+INSERT INTO users (name, mail, title, image) VALUES ('Maria Louise Bendixen', 'mlbe@eaaa.dk','Senior Lecturer', 'https://www.eaaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?width=850&height=450');
